@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFDAB9;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 400px;
+  padding: 5%;
+  border: 3px solid #002366;
+  box-shadow: 5px 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(#FA8072, #0F52BA);
+}
+
+.main2 {
+  height: 90vh;
+  padding: 5%;
+  border: 3px solid #002366;
+  box-shadow: 5px 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(#FA8072, #0F52BA);
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  width: 150px;
+  margin: 0;
+  margin-left: 2rem;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #FA8072;
+  border-radius: 10px;
+  border: none;
+  padding: .5rem;
+  color: #0F52BA;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #002366;
+}
+
+.cityLabel {
+  margin-left: 6rem;
+  color: #002366;
+  font-size: 1.2rem;
+}
+
+@media(max-width: 700px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  button {
+    margin-top: 1rem;
+    margin-left: 30%;
+  }
+}
+
+
